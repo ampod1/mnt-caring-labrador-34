@@ -1,3 +1,4 @@
 - "!include public_mnt_items.yaml"
+- "!include public_mnt_projects.yaml"
 - "!include public_mnt_site.yaml"
 - "!include public_users.yaml"

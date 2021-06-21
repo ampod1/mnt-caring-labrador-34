@@ -1,0 +1,7 @@
+object_relationships:
+- name: mnt_site
+  using:
+    foreign_key_constraint_on: site_id
+table:
+  name: mnt_projects
+  schema: public

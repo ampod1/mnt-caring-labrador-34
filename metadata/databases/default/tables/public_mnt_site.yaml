@@ -1,3 +1,11 @@
+array_relationships:
+- name: mnt_projects
+  using:
+    foreign_key_constraint_on:
+      column: site_id
+      table:
+        name: mnt_projects
+        schema: public
 table:
   name: mnt_site
   schema: public
