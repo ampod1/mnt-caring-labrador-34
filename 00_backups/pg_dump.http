@@ -1,0 +1,9 @@
+POST https://caring-labrador-34.hasura.app/v1alpha1/pg_dump HTTP/1.1
+Content-Type: application/json
+X-Hasura-Role: admin
+X-Hasura-admin-secret: bzVu3Vj5YcCqqCMilt0oro4Dg1bWeMWVJQlazLaQiJRhxnfjFI2IdjHJjJzKaxug
+
+{
+  "opts": ["-O", "-x", "--data-only", "--schema", "public"],
+  "clean_output": true
+}
