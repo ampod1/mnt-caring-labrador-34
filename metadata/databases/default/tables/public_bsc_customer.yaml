@@ -1,11 +1,11 @@
 array_relationships:
-- name: mnt_projects
+- name: core_users
   using:
     foreign_key_constraint_on:
-      column: site_id
+      column: customer_id
       table:
-        name: mnt_project
+        name: core_user
         schema: public
 table:
-  name: mnt_site
+  name: bsc_customer
   schema: public

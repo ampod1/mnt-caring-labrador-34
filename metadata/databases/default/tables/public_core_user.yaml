@@ -1,0 +1,10 @@
+object_relationships:
+- name: bsc_customer
+  using:
+    foreign_key_constraint_on: customer_id
+- name: core_usertype
+  using:
+    foreign_key_constraint_on: user_type
+table:
+  name: core_user
+  schema: public
