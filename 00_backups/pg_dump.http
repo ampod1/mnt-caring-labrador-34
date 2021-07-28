@@ -4,6 +4,10 @@ X-Hasura-Role: admin
 X-Hasura-admin-secret: bzVu3Vj5YcCqqCMilt0oro4Dg1bWeMWVJQlazLaQiJRhxnfjFI2IdjHJjJzKaxug
 
 {
-  "opts": ["-O", "-x", "--data-only", "--schema", "public"],
+  "opts": ["-O", "--schema", "public"],
   "clean_output": true
 }
+
+// Data or Schema only
+// "opts": ["-O", "-x", "--data-only", "--schema", "public"],
+// "opts": ["-O", "-x", "--schema-only", "--schema", "public"],
